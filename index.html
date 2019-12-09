@@ -5,10 +5,12 @@
   <meta charset="UTF-8">
   <title>Bootstrap Portfolio</title>
 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
 
@@ -31,53 +33,61 @@
           </div>
         </div>
       </nav>
-      
+
     </div>
   </header>
 
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>About Me</h1>
+  <div class="row">
+    <div id="main-container" class="container">
+      <div class="col-sm-8" id="about">
+        <section class="main-section">
+          <h1>About Me</h1>
 
-      <img src="assets/images/cat.jpg" class="auth-image" alt="Your Name">
+          <img src="assets/images/cat.jpg" class="auth-image" alt="Your Name">
 
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus nunc
-        porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin vel dui massa. Nunc
-        rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin commodo purus vitae sollicitudin
-        consectetur.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus nunc
+            porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin vel dui massa.
+            Nunc
+            rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin commodo purus vitae sollicitudin
+            consectetur.</p>
 
-      <p>Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices, ultrices neque non, pretium odio. Nunc id eros
-        iaculis, pulvinar quam eget, egestas mauris.</p>
+          <p>Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices, ultrices neque non, pretium odio. Nunc id
+            eros
+            iaculis, pulvinar quam eget, egestas mauris.</p>
 
-      <p>Suspendisse dictum, arcu at convallis faucibus, quam sapien tincidunt nunc, sit amet egestas nibh tortor et mi.
-        Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+          <p>Suspendisse dictum, arcu at convallis faucibus, quam sapien tincidunt nunc, sit amet egestas nibh tortor et
+            mi.
+            Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+      </div>
+      </section>
 
-    </section>
-
-    <section class="sidebar"></section>
-      <div id="connect">
+      <section class="sidebar"></section>
+      <div class="col-sm-4" id="connect">
         <h2>Connect with Me</h2>
 
         <a href="https://github.com/jenniferchan2267" class="social"><img
-          src="assets/images/if_github-square-social-media_764894.png" height="51" />
+            src="assets/images/if_github-square-social-media_764894.png" height="51" />
         </a>
 
-       <a href="https://www.linkedin.com/in/jennifer-rattana-chan//" class="social"><img
-          src="assets/images/if_square-linkedin_317725.png" height="51" />
-       </a>
+        <a href="https://www.linkedin.com/in/jennifer-rattana-chan//" class="social"><img
+            src="assets/images/if_square-linkedin_317725.png" height="51" />
+        </a>
 
-       <a href="https://www.facebook.com/Jennie.R.Chan" class="social"><img
-          src="assets/images/if_facebook-square-social-media.png" height="51" />
-       </a>
+        <a href="https://www.facebook.com/Jennie.R.Chan" class="social"><img
+            src="assets/images/if_facebook-square-social-media.png" height="51" />
+        </a>
 
       </div>
-    </section>
+      </section>
+    </div>
   </div>
-
   <footer>
-    <div class="container">
-      Copyright &copy Jennifer Chan
+    <div class="row">
+      <div class="col-sm-12">
+        Copyright &copy Jennifer Chan
+      </div>
     </div>
   </footer>
 </body>
+
 </html>
