@@ -22,6 +22,9 @@ a:hover {
 	color: #4c4b4b;
 	text-decoration: none;
 }
+a {
+  color: #ffffff; 
+}
 
 h1,
 h2,
